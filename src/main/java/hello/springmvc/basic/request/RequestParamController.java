@@ -17,6 +17,7 @@ import java.util.Map;
 @Controller
 /**
  * RequestParam : HTTP 요청 파라미터
+ * 1개의 HTT 요청 파라미터를 받기 위해서 사용한다.
  */
 public class RequestParamController {
     
@@ -85,6 +86,7 @@ public class RequestParamController {
 
     /**
      * ModelAttribute 활용
+     * 클라이언트가 전송하는 multipart/form-data 형태의 HTTP Body 내용과 HTTP 파라미터 데이터를 Setter를 통해 Java 객체에 매핑한다.
      */
     @ResponseBody
     @RequestMapping("/model-attribute-v1")

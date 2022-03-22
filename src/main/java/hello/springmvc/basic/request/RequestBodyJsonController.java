@@ -20,6 +20,7 @@ import java.nio.charset.StandardCharsets;
  * HTTP - 요청메시지 JSON
  * {"username":"hello", "age":20}
  * content-type : application/json
+ * RequestBody : 클라이언트가 전송하는 Json(application/json) 형태의 HTTP Body 내용을 Java Object로 변환해준다.
  */
 
 
